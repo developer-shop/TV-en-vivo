@@ -15,9 +15,9 @@ body{width:100%; height: 100%; background: #ffffff;}
 .container{ 
 height: 150px; width:100%;}
 
-#section1{
+#section1{text-align: center;
 width:44%; height: 150px; float: right; }
-#section1 img{border: 1px solid black; border-radius: 10px; padding: 5px; margin: 10px; }
+#section1 img{border:  1px solid black; border-radius: 10px;  text-align: center;}
 
 #section2{
 width:55%; height: 100px;}
@@ -32,10 +32,61 @@ width:55%; height: 49px; display: flex;}
 
 
 
-.nav{ width: 90%; height: 40px; margin: 10px; 10px; text-align: center;}
-.nav a{display: block; width: 80px; height: 18px; padding: 5px; background: #008000; border-radius: 10px; color: #ffffff;  text-decoration: none; float: right;}
+.nav{width:100%; height: 30px; text-align: center;}
 
+.nav a{display: block; text-decoration: none;
+    font-size: 16px; /* Tamaño de letra */
+    text-transform: uppercase; /* Letras en mayúscula */
+    background: #6B3618; /* Color de fondo */
+    padding: 10px 15px; /* Relleno */
+    margin: 10px;
+    color: #FFD059; /* Color de texto */
+    border-bottom: solid 2px #FFD059; /* Borde inferior */
+    border-radius: 10px; color: #ffffff;  }
 
+  #section03{
+width:100%; height: 49px; display: flex;}
+#section08{ width:10%;}
+#section04{ width:50%; height: 49px; float: right; margin: 10px; text-align: center;}
+
+#section05{width:50%; height: 49px; float: right; margin: 10px; text-align: center;}
+#section05 a{display: block; text-decoration: none;
+    font-size: 14px; /* Tamaño de letra */
+    text-transform: uppercase; /* Letras en mayúscula */
+    background: #6B3618; /* Color de fondo */
+    padding: 10px 15px; /* Relleno */
+    margin: 1px;
+    color: #FFD059; /* Color de texto */
+    border-bottom: solid 2px #FFD059; /* Borde inferior */
+    border-radius: 10px; color: #ffffff;  }
+
+.stars-fieldset {
+width: 100px;
+border: none;
+font-weight: bold;
+font-size: 14px;
+}
+
+.stars {
+width: 100px;
+height: 21px;
+display: block;
+background: url(http://lh5.googleusercontent.com/-Sp-iHFztZdc/UVD89O9oM1I/AAAAAAAAEU0/Xh-FBDaWyJY/s000/estrellas.png) 0 0 no-repeat;
+}
+
+.stars-0 { background-position: -100px -0; }
+.stars-5 { background-position: -81px -21px; }
+.stars-10 { background-position: -81px 0; }
+.stars-15 { background-position: -61px -21px; }
+.stars-20 { background-position: -60px 0; }
+.stars-25 { background-position: -40px -21px; }
+.stars-30 { background-position: -40px 0; }
+.stars-35 { background-position: -21px -21px; }
+.stars-40 { background-position: -21px 0; }
+.stars-45 { background-position: 0 -21px; }
+.stars-50 { background-position: 0 0; }
+
+  
 .main{   width:100%;  max-height: 220px;  display: flex; overflow-x: auto;}
 #section6 img{ border: 1px solid black; border-radius: 10px; height: 200px; width: 130px;  display: flex;}
 #section6{ margin: 5px; border-radius: 10px;  display: flex;}
@@ -69,9 +120,18 @@ p{padding: 10px; }
 </div>
 
 <div class="nav"> 
-<a href="TV en vivo_developer-shop.apk" download="TV en vivo_developer-shop" ><center>Descargar</center></a>
+<a href="https://github.com/developer-shop/TV-en-vivo/blob/gh-pages/TV%20en%20vivo_developer-shop.apk" download="TV en vivo_developer-shop" ><center>Descargar</center></a>
 </div>
 
+  <section id="section03">
+<div id="section08">
+</div>
+<div id="section04"><fieldset class="stars-fieldset"><legend>Calificación:</legend><span class="stars stars-25"></span></fieldset>
+</div>
+<div id="section05"><a href="comentarios.html" ><center>Comentarios</center></a> 
+</section>
+</div>
+  
 <div class="main">
 <section id="section6">
 <img src="https://i.ibb.co/FJfbfB9/Media-221124-225643-1.gif" >
